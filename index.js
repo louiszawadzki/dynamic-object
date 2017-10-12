@@ -1,6 +1,6 @@
 const lg = console.log;
 
-const styledComponents = (arg) => arg;
+const styledComponents = (...args) => args;
 
 const padding = '6px';
-lg(styledComponents(`padding: ${padding}`));
+lg(styledComponents`padding: ${padding}`);
